@@ -19,6 +19,7 @@ img{
 }
 .principal{
 	width: 960px;
+
 	color: #444;
 	margin: 0 auto;
 	font-family:sans-serif;
@@ -62,6 +63,7 @@ img{
 	color:#fff;
 	padding:13px 20px;
 }
+
 .corpo{
 	position:relative;
 	overflow:hidden;
@@ -118,6 +120,11 @@ img{
   
  
   
-@media only screen and (max-device-width: 420px) {
-	
+@media only screen and (max-device-width: 960px) {
+	.menu ul li a{
+		display:block;
+		color:#fff;
+		padding:13px 20px;
+	    size: 50px;
 	}
+}
